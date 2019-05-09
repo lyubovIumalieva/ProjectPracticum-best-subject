@@ -1,0 +1,58 @@
+{
+    "url": "localhost/lab1/fibonachi/2",
+    "response": 1,
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/fibonachi/20",
+    "response":  6765,
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/fibonachi/8",
+    "response": 21,
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/numbers/505",
+    "response": "пятьсот пять",
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/weekdays?date=10.01.1998",
+    "response": "Saturday",
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/weekdays?date=12.03.1977",
+    "response": "Saturday",
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/regions/72",
+    "response": "Тюменская область",
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/regions/23",
+    "response": "Краснодарский край",
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/regions/54",
+    "response": "Новосибирская область",
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/regions/09",
+    "response": "Карачаево-Черкесская республика",
+    "method": "GET"
+}
+{
+    "url": "localhost/lab1/equation?a=3&b=5&c=-1",
+    "response": [
+        1.6241437954473,
+        -16.624143795447
+    ],
+    "method": "GET"
+}
