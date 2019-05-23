@@ -1,0 +1,7 @@
+{
+    "url": "localhost/lab4/index",
+    "response": {
+        "result": "Hello,_world"
+    },
+    "method": "GET"
+}
