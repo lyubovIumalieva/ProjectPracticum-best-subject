@@ -1,0 +1,31 @@
+[
+  {
+    "url": "http://127.0.0.1:8001/api/tests",
+    "body": {
+      "testname": "test6",
+      "questions": [
+        {
+          "question_text": "Что необходимо чтобы получить пропуск в университет?", 
+          "options": [
+            {"option_text":"Купить у старшекурсника", "is_correct": false}, 
+            {"option_text":"Договориться с охранником", "is_correct": false},
+            {"option_text":"Заполнить заявление в учебной части", "is_correct": true},
+            {"option_text":"Пройти медосмотр", "is_correct": false}
+          ]
+        },
+        {
+          "question_text": "Как получить повышенную стипендию?", 
+          "options": [
+            {"option_text":"Учиться на пятерки", "is_correct": true},
+            {"option_text":"Победить в конференции", "is_correct": true}, 
+            {"option_text":"Победить в хакатоне", "is_correct": true},
+            {"option_text":"Опубликовать статью в Скопусе", "is_correct": true},
+            {"option_text":"Стать победителем СтудВесны", "is_correct": true}
+          ]
+        }
+      ]
+    },
+    "response": {"data": [{"id": "6"}]},
+    "method": "POST"
+  }
+]

@@ -1,0 +1,90 @@
+html, body {
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    color: #636b6f;
+    font-family: "Century Gothic";
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-left {
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 42px;
+    
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.question, .questionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+.question > label{
+    margin: 5px 0;
+}
+.question input{
+    margin: 0 5px;
+}
+
+.btnMain{
+    font-size: 16px;
+    width: 130px;
+    height: 32px;
+}
+
+#btnCreateQuestion{
+    font-size: 14px;
+    width: 130px;
+    height: 28px;
+    margin: 15px 0;
+}
+.vQuestion{
+    width: 300px;
+}
+
+.askuser{
+    display: none;
+}
